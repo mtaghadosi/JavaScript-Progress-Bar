@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 200px auto;
+    width: 400px;
+    height: 250px;
+    background-color: darkred;
+    padding: 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px;
+    line-height: 180px;
+    font-size: 2em;
+    color: aliceblue;
+    font-weight: 10;
+}
+.progress-bar{
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.progress-bar-value{
+    height: 50px;
+    width: 0%;
+    background: chartreuse;
+    text-align: center;
+}
+#prog-show{
+    display: inline-block;
+    text-align: center;
+}
+button{
+    margin: 10px;
+}
